@@ -10,8 +10,8 @@ function getUserNumberInput() {
 
 //Generate and write calculation log
 function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
-    const calcDescripition = `${resultBeforeCalc} ${operator} ${calcNumber}`;
-    outputResult(currentResult, calcDescripition); //from vendor file
+    const calcDescrpition = `${resultBeforeCalc} ${operator} ${calcNumber}`;
+    outputResult(currentResult, calcDescrpition); //from vendor file
 }
 
 function writeToLog(
